@@ -7,7 +7,7 @@ This repository provides practical Java implementations of common software desig
 The design patterns are categorized according to their intent:
 
 *   **Creational Patterns:** Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
-*   **Structural Patterns (Planned):** Ease the design by identifying a simple way to realize relationships between entities.
+*   **Structural Patterns:** Ease the design by identifying a simple way to realize relationships between entities.
 *   **Behavioral Patterns (Planned):** Identify common communication patterns between objects and realize these patterns.
 
 Each pattern is implemented in its own subdirectory within the respective category (e.g., `creational_patterns/Singleton/`).
@@ -21,6 +21,18 @@ The following creational design patterns have been implemented:
 *   **[Abstract Factory](./creational_patterns/abstract_factory/)**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 *   **[Builder](./creational_patterns/builder/)**: Separates the construction of a complex object from its representation so that the same construction process can create different representations.
 *   **[Prototype](./creational_patterns/prototype/)**: Specifies the kinds of objects to create using a prototypical instance, and creates new objects by copying this prototype.
+
+## Implemented Structural Patterns
+
+The following structural design patterns have been implemented:
+
+*   **[Adapter](./structural_patterns/adapter/)**: Converts the interface of a class into another interface clients expect, allowing incompatible classes to work together.
+*   **[Bridge](./structural_patterns/bridge/)**: Decouples an abstraction from its implementation so that the two can vary independently.
+*   **[Composite](./structural_patterns/composite/)**: Composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.
+*   **[Decorator](./structural_patterns/decorator/)**: Attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+*   **[Facade](./structural_patterns/facade/)**: Provides a unified interface to a set of interfaces in a subsystem, making the subsystem easier to use.
+*   **[Flyweight](./structural_patterns/flyweight/)**: Uses sharing to support large numbers of fine-grained objects efficiently by minimizing memory usage.
+*   **[Proxy](./structural_patterns/proxy/)**: Provides a surrogate or placeholder for another object to control access to it.
 
 ## How to Use
 
